@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+## About
 
-You can use the [editor on GitHub](https://github.com/mroswell/view-docs-pdf/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I'm a newbie to Vue.js, but I have a good feeling about it. I want to learn it!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I noticed three closed issues regarding requests for a PDF of the documentation, none of which actually yielded a PDF of the documentation. But I really wanted to a PDF, so I made one. This documentation is Macgyvered together from the markdown files in the vuejs.org repo. I renamed the files so that they would alphabatize, concatenated them, loaded the concatenated markdown into dillenger and saved it as a PDF. But wait... the PDF was more than 400 pages long with not very many words per page... so I continued tried a different strategy. 
 
-### Markdown
+I installed pandoc.. which alas wouldn't install properly on my upgraded MacOS. found another computer... successfully installe pandoc, converted the concatenated markdown file to a Word document where I modified it to be multi-column. And I've sent it off to the print shop, where I'll pick up a bound copy on Sunday.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+TODO: the images are missing.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mroswell/view-docs-pdf/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
